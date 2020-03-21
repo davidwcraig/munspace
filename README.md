@@ -8,6 +8,7 @@ To use these:
     `munsell_chips.csv` to your working directory.
 2.  In your Python file include `import munspace` or `from munspace import hvc`
 3.  `munspace.hvc` has the following signature:
+
         hvc(h, v = 5, c = 'middle'):
         """
         returns rbg hex string of 'high', 'middle' or 'low' chroma=c for munsell
