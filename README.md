@@ -2,6 +2,22 @@
 
 ## Utility for using rgb colors that approximate the Munsell color space in Python.
 
+To use these:
+
+1.  Clone the repository or copy the files (at minimum) `munspace.py` and 
+    `munsell_chips.csv` to your working directory.
+2.  In your Python file include `import munspace` or `from munspace import hvc`
+3.  `munspace.hvc` has the following signature:
+        hvc(h, v = 5, c = 'middle'):
+        """
+        returns rbg hex string of 'high', 'middle' or 'low' chroma=c for munsell
+        h=hue, v=value.
+
+        defaults to 'middle' chroma.
+        """
+    Hues available will be in the list `hues`, values run from 1 to 9,
+    and simple chroma ranges are from `['low', 'middle', 'high']`
+    
 Note that these will only be approximations, and will depend on the 
 color temperature of your display, etc.
 
