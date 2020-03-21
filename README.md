@@ -1,9 +1,19 @@
 # munspace
-Utility for using rgb colors that approximate the Munsell color space in Python.
+
+## Utility for using rgb colors that approximate the Munsell color space in Python.
+
+Note that these will only be approximations, and will depend on the 
+color temperature of your display, etc.
+
+<figure>
 
 ![10 sine waves in Munsell colors](munsell-color-demo.png)
 
-I was led to the RGB value used by Andrew Werth's very nice
+<figcaption>Sine waves in Munsell primary and secondary colors, medium chroma
+and value.</figcaption>
+</figure>
+
+I was led to the RGB values used by Andrew Werth's very nice
 [Virtual Munsell Color Wheel](https://www.andrewwerth.com/aboutmunsell/) and the
 Javascript there.
 
