@@ -22,6 +22,8 @@ To use these:
 Note that these will only be approximations, and will depend on the 
 color temperature of your display, etc.
 
+See `use-munspace.ipynb` for the example below:
+
 <figure>
 
 ![10 sine waves in Munsell colors](munsell-color-demo.png)
@@ -29,6 +31,7 @@ color temperature of your display, etc.
 <figcaption>Sine waves in Munsell primary and secondary colors, medium chroma
 and value.</figcaption>
 </figure>
+
 
 I was led to the RGB values used by Andrew Werth's very nice
 [Virtual Munsell Color Wheel](https://www.andrewwerth.com/aboutmunsell/) and the
